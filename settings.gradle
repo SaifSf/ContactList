@@ -1,1 +1,1 @@
-include ':app', ':sectionRecyler'
+include ':app', ':sectionRecycler'
