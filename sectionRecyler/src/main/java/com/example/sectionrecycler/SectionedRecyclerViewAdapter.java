@@ -1,4 +1,4 @@
-package com.example.contact.Contact;
+package com.example.sectionrecycler;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,7 +14,8 @@ import org.apache.commons.collections4.map.ListOrderedMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.UUID;
-import static com.example.contact.Contact.Section.State;
+
+import static com.example.sectionrecycler.Section.State;
 
 public class SectionedRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
@@ -219,7 +220,7 @@ public class SectionedRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerV
     /**
      * Add a section at the specific position to this recyclerview with a random tag.
      *
-     * @param index the index at which the section should be inserted
+     * @param index   the index at which the section should be inserted
      * @param section section should be added
      * @return generated tag
      */

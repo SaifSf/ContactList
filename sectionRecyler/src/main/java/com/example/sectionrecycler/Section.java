@@ -1,4 +1,4 @@
-package com.example.contact.Contact;
+package com.example.sectionrecycler;
 
 import android.view.View;
 import android.view.ViewGroup;

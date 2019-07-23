@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         if (null == savedInstanceState) {
             getFragmentManager().beginTransaction()
-                    .replace(R.id.container, Contact_section.newInstance())
+                    .replace(R.id.container, SectionFragment.newInstance())
                     .commit();
         }
     }
