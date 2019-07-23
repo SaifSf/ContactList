@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Contact</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="android_icon">Android icon</string>
+    <string name="cd_arrow_icon">cd_arrow_icon</string>
+</resources>
